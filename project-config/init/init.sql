@@ -1,2 +1,1 @@
-CREATE TABLE test (sth TEXT);
-INSERT INTO test VALUES ('hello world');
+create extension if not exists tablefunc;

@@ -33,4 +33,4 @@ tar caf data.tar.xz -C "$PGDATA" .
 rm -rf "$PGDATA"
 
 # install pre-start hook
-cp -r /tmp/src/postgresql-pre-start .
+# cp -r /tmp/src/postgresql-pre-start .
